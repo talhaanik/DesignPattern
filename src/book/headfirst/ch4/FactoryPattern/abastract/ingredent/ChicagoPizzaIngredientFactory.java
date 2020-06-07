@@ -17,12 +17,12 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 	@Override
 	public Cheese createCheese() {
 		// TODO Auto-generated method stub
-		return new DeepDishChees();
+		return new Mozzarella();
 	}
 
 	@Override
 	public Veggies[] createVeggies() {
-		Veggies veggies[]= {new BlackOlives(),new Spinach(),new Mozzarella(),new EggPlant()};
+		Veggies veggies[]= {new BlackOlives(),new Spinach(),new EggPlant()};
 		return veggies;
 	}
 
